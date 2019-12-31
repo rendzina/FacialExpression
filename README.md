@@ -4,7 +4,7 @@ Facial expression detection on Raspberry Pi with attached Pi camera, using the X
 ## Project
 This project is to develop a Raspberry Pi demonstrator using the Xnor AI2GO library to allow facial expression detection from an attached Pi Camera, and for it to run unattended (no attached keyboard/mouse), changing a 'face' graphic on an attached Raspberry Pi 'Pi Moroni HyperPixel' display. As the camera detects faces with differing expressions, the image onscreen changes accordingly.
 
-The project uses the Xnor AI2GO libraries, and is based on Matt Welsh's (@mdwelsh) example code at [https://medium.com/@mdwdotla/true-ai-on-a-raspberry-pi-with-no-extra-hardware-dcdbff12d068](https://medium.com/@mdwdotla/true-ai-on-a-raspberry-pi-with-no-extra-hardware-dcdbff12d068)
+The project uses the [Xnor AI2GO](https://ai2go.xnor.ai/home/) libraries, and is based on Matt Welsh's (@mdwelsh) example code at [https://medium.com/@mdwdotla/true-ai-on-a-raspberry-pi-with-no-extra-hardware-dcdbff12d068](https://medium.com/@mdwdotla/true-ai-on-a-raspberry-pi-with-no-extra-hardware-dcdbff12d068)
 
 ## Hardware
 The following hardware is used:
