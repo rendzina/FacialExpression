@@ -32,9 +32,9 @@ The Raspberry Pi is configured with the camera and the HyperPixel display. A Pi 
 
 The Pi was set up to run in 'headless' mode (no monitor/keyboard/mouse) - to do this see our [GeoThread blog](http://www.geothread.net/?s=headless), allowing a remote laptop to ssh in to the Pi, and using [FileZilla](https://filezilla-project.org) to copy files over to it.
 
-A short Python script *'TestCameraWorks.py'* was used to ensure the camera was functioning and that its orientation was correct.
+A short Python script *'test_camera_works.py'* was used to ensure the camera was functioning and that its orientation was correct.
 ```
-> python3 TestCameraWorks.py
+> python3 test_camera_works.py
 ```
 
 A folder *'/home/pi/Public/faces'* was created and face graphic files copied to it. The HyperPixel screen is 720x720pixels. The face images were resized to fit and after experimentation, images of 720pixels wide by 640 pixels high were created (allowing for the Pi Desktop layout at the top). Facial images such as [https://www.flickr.com/photos/159615760@N04/32442990608](https://www.flickr.com/photos/159615760@N04/32442990608) were used.
