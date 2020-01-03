@@ -1,6 +1,8 @@
 # FacialExpression
 Facial expression detection on Raspberry Pi with attached Pi camera, using the Xnor AI2GO libraries.
 
+See the [Demonstration](https://github.com/rendzina/FacialExpression/blob/master/demonstration/HappyFace.gif)
+
 ## Project
 This project is to develop a Raspberry Pi demonstrator using the Xnor AI2GO library to allow facial expression detection from an attached Pi Camera, and for it to run unattended (no attached keyboard/mouse), changing a 'face' graphic on an attached Raspberry Pi 'Pi Moroni HyperPixel' display. As the camera detects faces with differing expressions, the image onscreen changes accordingly.
 
