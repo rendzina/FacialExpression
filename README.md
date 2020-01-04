@@ -1,6 +1,8 @@
 # FacialExpression
 Facial expression detection on Raspberry Pi with attached Pi camera, using the Xnor AI2GO libraries.
 
+![alt text](https://github.com/rendzina/FacialExpression/blob/master/demonstration/HappyFace.gif "Happy face")
+
 See the [Demonstration](https://github.com/rendzina/FacialExpression/tree/master/demonstration) files
 
 ## Project
