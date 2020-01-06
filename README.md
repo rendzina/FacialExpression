@@ -72,5 +72,7 @@ The AI2GO facial expression library is capable of detecting a range of expressio
 
 ## Final steps - a Case
 For this project we used the HyperPixel 4.0 Square screen - plugged directly into the GPIO bus. Unfortunately the default orientation of this screen means that the power cable is inserted from below - and this means that the unit cannot stand up on its own. At first we tried to change the orientation of the screen in software - although this is possible, it seems that similarly rotating the orientation of the touch screen is not so easy. In the end a case was required to lift the unit up. A bit of light engineering later and the case is finished:
+
 ![alt text](https://github.com/rendzina/FacialExpression/blob/master/demonstration/FaceRecognitionCase_01_thmb.jpg "Front view")
+
 ![alt text](https://github.com/rendzina/FacialExpression/blob/master/demonstration/FaceRecognitionCase_02_thmb.jpg "Rear view")
