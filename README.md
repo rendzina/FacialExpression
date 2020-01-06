@@ -69,3 +69,8 @@ The Pi could then be rebooted to run.
 The code needs some further improvements to handle how it reacts when no faces are detected - an image *'face_makeaface.png'* was added to show an invitation to people passing to make a face at the camera.
 
 The AI2GO facial expression library is capable of detecting a range of expressions, including :smile:'happy', :disappointed:'sad', :angry:'anger', :fearful:'fear', :stuck_out_tongue_closed_eyes:'disgust', :astonished:'surprise', and :expressionless:'neutral'. It should be noted that in practice it seemed very hard to make the model recognise any emotions other than 'neutral' and 'happy'. This could be the camera, the lack of processing power on the Pi4, the room lighting, camera settings or the faces used (!) - a bit frustrating in the end.
+
+## Final steps - a Case
+For this project we used the HyperPixel 4.0 Square screen - plugged directly into the GPIO bus. Unfortunately the default orientation of this screen means that the power cable is inserted from below - and this means that the unit cannot stand up on its own. At first we tried to change the orientation of the screen in software - although this is possible, it seems that similarly rotating the orientation of the touch screen is not so easy. In the end a case was required to lift the unit up. A bit of light engineering later and the case is finished:
+![alt text](https://github.com/rendzina/FacialExpression/blob/master/demonstration/FaceRecognitionCase_01_thmb.jpg "Front view")
+![alt text](https://github.com/rendzina/FacialExpression/blob/master/demonstration/FaceRecognitionCase_02_thmb.jpg "Rear view")
